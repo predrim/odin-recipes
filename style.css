@@ -1,0 +1,37 @@
+body
+{
+    text-align: center;
+    background-color: brown;
+}
+
+h1
+{
+font-size: 5rem;
+transform: skewY(10deg);
+}
+
+h1, .spam
+{
+position: relative;
+z-index: 100;
+
+animation: seizure 0.12s infinite steps(1); 
+}
+
+@keyframes seizure {
+    0% {color: red;}
+    25% {color: yellow}
+    50% {color: blue;}
+}
+
+a {
+    border: solid;
+    border-radius: 10px;
+    position: relative;
+    z-index: 101;
+}
+
+img
+{
+    transform: translate(100px, -400px);
+}
